@@ -76,6 +76,16 @@ EM_PWM_PLPM_PVCM:
   - PLPM
   - PVCM
 
+EM_PWM_EPWM_PLPM_PVCM:
+  description: "Power meter with phase level voltage, current, exported power, and power monitoring."
+  is_canonical: true
+  implements:
+  - EM
+  - PWM
+  - EPWM
+  - PLPM
+  - PVCM
+
 EM_PWM_AVCM_PVCM:
   guid: "ab725e34-0009-4595-8603-28d902e1b1fa"
   description: "Power meter with phase level voltage and current monitoring (and averaging)."
